@@ -1,0 +1,4 @@
+baseURL = 'https://dissinmanga.github.io/'
+locale = 'en-us'
+title = '今天嘴漫畫'
+theme = 'congo'
