@@ -1,6 +1,6 @@
 ---
 title: 本網誌導讀 ②
-slug: 260911_no_guidance_pt2
+draft: true
 date: 2026-09-11T10:34:00+00:00
 ---
 

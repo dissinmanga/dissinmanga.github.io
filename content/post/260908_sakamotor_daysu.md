@@ -1,6 +1,5 @@
 ---
 title: 坂本日常與穿隧效應
-slug: 260908_sakamotor_daysu
 date: 2026-09-07T16:01:00+00:00
 ---
 

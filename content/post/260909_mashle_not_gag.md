@@ -1,6 +1,5 @@
 ---
 title: 我不認為肌肉魔法使 -Mashle- 是搞笑漫
-slug: 260909_mashle_not_gag
 date: 2026-09-08T19:28:00+00:00
 ---
 

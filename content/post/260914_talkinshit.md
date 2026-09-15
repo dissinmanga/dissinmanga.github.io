@@ -1,6 +1,5 @@
 ---
 title: 講人話很難嗎？
-slug: 260914_talkinshit
 date: 2026-09-13T20:12:00+00:00
 ---
 
@@ -26,7 +25,7 @@ date: 2026-09-13T20:12:00+00:00
 
 Obsidian跟vscode這個表格我逐欄吐嘈，首先這兩個的底層都是editor，在blog底下都能當markdown editor，手動管理vaults會混淆這真的不是工具的問題。
 
-Front matters是我最想不透的，obsidian早就有了properties的功能跟Front matters對接了，你甚至還可以用templates的外掛跟hugo的architypes功能接在一起，哪還需要裝什麼破幹Front matters套件[^1]。
+Front matters是我最想不透的，obsidian早就有了properties的功能跟Front matters對接了，你甚至還可以用templates的外掛跟hugo的archetypes功能接在一起，哪還需要裝什麼破幹Front matters套件[^1]。
 
 學習曲線這也是，wikilinks的語法是obsidian專屬，你要當blog的後台編輯器用就不能算在裡面，至於知識圖譜，你是會把整個圖譜push上來嗎？退一步講，這東西到底是有什麼使用門檻，媽的到底在公三小朋友。噢git那個，如果你分成兩個vaults（資料夾），根本不用像踩地雷一樣去區別好嗎？
 

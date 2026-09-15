@@ -1,6 +1,5 @@
 ---
 title: 忍者一廂情願秘事
-slug: 260911_shinobi_underlover
 date: 2026-09-10T19:23:00+00:00
 ---
 

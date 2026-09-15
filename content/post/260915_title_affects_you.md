@@ -1,6 +1,5 @@
 ---
 title: 標題與體裁的暗示/他人對作者的信任度
-slug: 260915_title_affects_you
 date: 2026-09-15T07:02:00+00:00
 ---
 
@@ -105,7 +104,7 @@ Obsidian跟vscode都是資料夾為基礎的editor（vscode的workspace有更彈
 
 這裡還有另一個坑，Front Matter CMS是專門做給各種blog框架（我不確定是否只限SSG）的GUI管理工具，這名字取得非常的差，如果你知道Front Matter其實是markdown記錄屬性資料的區塊，就會知道這個混淆性不是單把Front Matter寫成Frontmatter就能處理的。
 
-由於我沒用過Front Matter CMS（下稱FM CMS），所以Hugo整合這塊我無從置喙，但Obsidian Templates跟Hugo的模板設定配合好後，理論上是不需要自己填欄位名的。這部份姑且是Obsidian跟FM CMS的設計哲學有出入，Obsidian的Templates語法需要自己研究，且高機率與Hugo Architype的語法不相容。
+由於我沒用過Front Matter CMS（下稱FM CMS），所以Hugo整合這塊我無從置喙，但Obsidian Templates跟Hugo的模板設定配合好後，理論上是不需要自己填欄位名的。這部份姑且是Obsidian跟FM CMS的設計哲學有出入，Obsidian的Templates語法需要自己研究，且高機率與Hugo Archetype的語法不相容。
 
 所以你要說學習曲線的問題嘛…Obsidian作為一個通用型的筆記軟體，確實無法跟專門做給CMS的工具相比，但這個陡峭的地方絕對是在設定Obsidian與Hugo的相容上，而不是根本不用設定的知識圖譜以及wikilink語法天生與Hugo不相容的連結功能上。
 

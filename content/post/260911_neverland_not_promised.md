@@ -1,6 +1,5 @@
 ---
 title: 留一地遺憾的約定的夢幻島
-slug: 260911_neverland_not_promised
 date: 2026-09-10T16:05:00+00:00
 ---
 

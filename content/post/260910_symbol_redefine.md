@@ -1,6 +1,5 @@
 ---
 title: 二創與符號的再定義
-slug: 260910_symbol_redefine
 date: 2026-09-10T06:40:00+00:00
 ---
 

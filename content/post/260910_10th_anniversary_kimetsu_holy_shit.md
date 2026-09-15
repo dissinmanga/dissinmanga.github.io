@@ -1,6 +1,5 @@
 ---
 title: 鬼滅之刃十週年了，holy shit
-slug: 260910_10th_anniversary_kimetsu_holy_shit
 date: 2026-09-09T16:25:00+00:00
 ---
 

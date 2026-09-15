@@ -1,6 +1,5 @@
 ---
 title: 藤他媽本樹
-slug: 260913_fujitamatotsuki
 date: 2026-09-12T21:09:00+00:00
 ---
 
