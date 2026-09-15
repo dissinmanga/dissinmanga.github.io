@@ -4,6 +4,7 @@ draft: false
 title: 從Bearblog搬到Github pages
 description:
 summary: " "
+math: true
 ---
 我終於受夠Bearblog了。
 
@@ -56,5 +57,5 @@ https://[your account]:[your PAT]@github.com/dissinmanga/dissinmanga.github.io.g
 
 ◆
 
-好啦我其實認同Obsidian在前置設定上真的有點門檻。
+好啦我其實認同Obsidian在前置設定上真的有點門檻，而且基於手機Obsidian的git在不知名的狀況下會產生延遲一事，讓我遲遲不願意把Obsidian當成CMS用，不過試試沒損失，你說是吧？
 
