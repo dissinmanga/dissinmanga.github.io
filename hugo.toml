@@ -2,3 +2,16 @@ baseURL = 'https://dissinmanga.github.io/'
 locale = 'en-us'
 title = '今天嘴漫畫'
 theme = 'congo'
+
+[params]
+	mainSections = ["post"]
+
+[params.homepage]
+	showRecent = true
+	recentItemsNumber = 10
+	showMoreLink = true
+ 	cardView = false
+
+[[menu.main]]
+	name = "貼文"
+	url = "/post/" 
