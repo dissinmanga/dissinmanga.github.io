@@ -4,9 +4,11 @@ title = '今天嘴漫畫'
 theme = 'congo'
 
 [params]
+	enableSearch = true
 	mainSections = ["post"]
 
 [params.homepage]
+	layout = "page"
 	showRecent = true
 	recentItemsNumber = 10
 	showMoreLink = true
