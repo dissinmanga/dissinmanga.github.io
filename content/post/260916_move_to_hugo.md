@@ -57,5 +57,12 @@ https://[your account]:[your PAT]@github.com/dissinmanga/dissinmanga.github.io.g
 
 ◆
 
-好啦我其實認同Obsidian在前置設定上真的有點門檻，而且基於手機Obsidian的git在不知名的狀況下會產生延遲一事，讓我遲遲不願意把Obsidian當成CMS用，不過試試沒損失，你說是吧？
+好啦我其實認同Obsidian在前置設定上真的有點門檻，而且基於手機Obsidian的git在不知名的狀況下會產生延遲一事，讓我遲遲不願意把Obsidian當成CMS用。
 
+不過試試沒損失，你說是吧？
+
+如果你知道obsidian不是開源軟體——即時我一直覺得obsidian是手機上最好用的Markdown editor，我怕會有失去obsidian的那一天，我一直避免自己對他上癮。
+
+我簡直就像躺在床上，騎著下巴睡眼惺鬆，用錯的要死的嘴巴對著手機講話在寫這篇文章一樣——我現在就是這麼幹的，把這種亂七八糟的文章發在部落格上真的沒有問題嗎？快笑死。
+
+我到底有多不尊重blog到什麼地步？
