@@ -19,4 +19,4 @@ theme = 'congo'
 	url = "/post/" 
 
 [outputs]
-	home = ["HTML, "JSON"]
+	home = ["HTML", "JSON"]
