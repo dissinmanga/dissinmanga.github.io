@@ -1,9 +1,9 @@
 baseURL = 'https://dissinmanga.github.io/'
-locale = 'en-us'
+locale = "zh-hant"
 title = '今天嘴漫畫'
 theme = 'congo'
 defaultContentLanguage = "zh-hant"
-languageCode = "zh-Hant-TW"
+disableLanguages = ["en"]
 
 summaryLength = 0
 hasCJKLanguage = true
