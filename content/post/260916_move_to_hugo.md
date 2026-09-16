@@ -38,8 +38,8 @@ summary: " "
 考量到Github Pages要求repository公開的設定，最好先弄一個`.gitignore`把`.obsidian`設定成不要同步，如果你打算設定Obsidian Git，會需要申請GitHub的access token，我不確定Obsidian會不會把這個token明碼儲存，如果會的話，你一把`.obsidian`丟上去，隨便一個幼稚園小孩都可以把你的帳號當公廁。
 
 所以回顧一下我對obsidian做了什麼手腳︰
-+ 更改新檔案路徑$\rightarrow$config放在`.obsidian/app.json`
-+ 更改templates路徑$\rightarrow$config放在`.obsidian/templates.json`
++ 更改新檔案路徑→config放在`.obsidian/app.json`
++ 更改templates路徑→config放在`.obsidian/templates.json`
 
 這些加完就可以放心把`.obsidian`丟進`.gitignore`了
 

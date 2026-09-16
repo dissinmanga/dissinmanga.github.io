@@ -17,3 +17,6 @@ theme = 'congo'
 [[menu.main]]
 	name = "貼文"
 	url = "/post/" 
+
+[outputs]
+	home = ["HTML, "JSON"]
