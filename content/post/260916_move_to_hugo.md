@@ -47,7 +47,7 @@ summary: " "
 
 把所有檔案推到repo後，接下來在設定這邊的pages，可以選擇用github actions去接CI/CD，說起來，github action居然不用自己寫設定檔，太爽了吧。
 
-這邊要注意一下裡面hugo的版本，預設給`0.138.0`，改成一個你喜歡的版本——請你喜歡`0.160.0`，不然高機率不會成功。
+這邊要注意一下裡面hugo的版本，預設給`0.138.0`，改成一個你喜歡的版本——請你喜歡`0.160.0`以後的版本，不然高機率不會成功。
 
 接著到Github申請Personal Access Token，通常是放在帳號設定的Credentials，選Fine-grained PAT，縮限repo的範圍，content權限開read write。
 

@@ -7,7 +7,7 @@ date: 2026-09-14T06:55:00+00:00
 
 ◆
 
-上文我提過，吸收別人的負面能量又不處理的話，早晚會[爆炸](https://ivonbleg.com/posts/linux-fanboys-cringy-moments/)——老樣子，e自己改o，我以前在商場打工時，其實有看過類似的情況。
+上文我提過，吸收別人的負面能量又不處理的話，早晚會[爆炸](https://ivonblog.com/posts/linux-fanboys-cringy-moments/)——老樣子，e自己改o，我以前在商場打工時，其實有看過類似的情況。
 
 我很難形容，很像是，看到你不爽，我就爽了的機制。
 
