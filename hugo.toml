@@ -2,8 +2,11 @@ baseURL = 'https://dissinmanga.github.io/'
 locale = 'en-us'
 title = '今天嘴漫畫'
 theme = 'congo'
+defaultContentLanguage = "zh-hant"
+languageCode = "zh-Hant-TW"
 
 summaryLength = 0
+hasCJKLanguage = true
 
 [params]
 	enableSearch = true
@@ -14,6 +17,9 @@ summaryLength = 0
 	showRecent = true
 	recentLimit = 10
 
+[params.header]
+	layout = "basic"
+
 [params.footer]
 	showAppearanceSwitcher = true
 
@@ -21,8 +27,12 @@ summaryLength = 0
 	pagerSize = 30
 
 [[menu.main]]
-	name = "貼文"
+	name = "文章"
 	url = "/post/" 
+
+[[menu.main]]
+	name = "隨機"
+	url = "/#random" 
 
 [outputs]
 	home = ["HTML", "JSON"]

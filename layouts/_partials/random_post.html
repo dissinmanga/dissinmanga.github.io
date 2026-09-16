@@ -1,0 +1,20 @@
+<script>
+  {
+    const randomPost = async (event) => {
+      event.preventDefault();
+      const posts = await fetch("/index.json")
+        .then(r => r.json())
+        .then(r => r.filter(i => i.permalink.includes("/post/") && i.permalink!= window.location.href && i.date))
+        .catch(()=>({}));
+      if (!posts) return;
+      window.location.href = posts[Math.floor(Math.random() * posts.length)].permalink;
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+    const singleElement = document.querySelector('a[href="/#random"]');
+      if (singleElement) {
+        singleElement.addEventListener('click', randomPost);
+      }
+    })
+  }
+</script>
