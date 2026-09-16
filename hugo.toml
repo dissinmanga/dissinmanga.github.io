@@ -3,6 +3,8 @@ locale = 'en-us'
 title = '今天嘴漫畫'
 theme = 'congo'
 
+summaryLength = 0
+
 [params]
 	enableSearch = true
 	mainSections = ["post"]
@@ -10,9 +12,13 @@ theme = 'congo'
 [params.homepage]
 	layout = "page"
 	showRecent = true
-	recentItemsNumber = 10
-	showMoreLink = true
- 	cardView = false
+	recentLimit = 10
+
+[params.footer]
+	showAppearanceSwitcher = true
+
+[pagination]
+	pagerSize = 30
 
 [[menu.main]]
 	name = "貼文"
