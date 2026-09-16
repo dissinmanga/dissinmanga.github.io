@@ -1,7 +1,7 @@
 ---
 date: 2026-09-16T13:12:25+08:00
-draft: true
-title: DRY是bullshit
+draft: false
+title: 搬家到Github Pages，又一次找回自己
 description: " "
 summary: " "
 ---
@@ -56,3 +56,9 @@ summary: " "
 其實我是因為Bearblog要加入搜尋功能需要升級Pro才搬到Github Pages的。
 
 不過，弄完之後我不禁在想，我為什麼要在這種地方加搜尋功能？到底有什麼問題笑死。
+
+比起這些，更重要的是，為什麼我會在沒有在templates加draft時多次把草稿丟出去，又會在templates加完draft: true後多次把完稿當草稿推上去？像這篇又是推上去後才發現自己忘記把draft的checkbox取消掉。
+
+是說我一邊敲下這個標題[^1]，一邊在想我會被討厭不是沒有理由的，有夠靠北——順便老調重彈，我這邊的網址多數會留下typo，請再手動幫我把e改o，感謝你。
+
+[^1]: [COSCUP 2026 - 又一次找回自己](https://bleg.giveanornot.com/coscup-2026/)
