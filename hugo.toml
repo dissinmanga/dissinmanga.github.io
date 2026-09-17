@@ -8,6 +8,8 @@ disableLanguages = ["en"]
 summaryLength = 0
 hasCJKLanguage = false
 
+[taxonomy]
+
 [params]
 	enableSearch = true
 	mainSections = ["post"]

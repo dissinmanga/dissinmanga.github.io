@@ -10,7 +10,7 @@ math: true
 
 其實Bearblog也沒有惹到我什麼，只是在我某一天起床時，實在是受不了總是要先送成草稿再修改連結的工作方式了，恰好[這篇]({{< relref "260914_talkinshit" >}})讓我實在很想試一下用Obsidian當CMS的手感，再加上我一直想找個理由體驗一下Github Actions。
 
-於是我，創了新的Github帳號，建立了新的repository，加入了public ssh key，拉下repository，用`hugo new project dissinmanga.github.io --force`建立新紀元，用`git submodule git@github.com:jpanther/congo.git theme/congo`拉了Hugo的主題。
+於是我，創了新的Github帳號，建立了新的repository，加入了public ssh key，拉下repository，用`hugo new project dissinmanga.github.io --force`建立新紀元，用`git submodule https://github.com/jpanther/congo.git theme/congo`拉了Hugo的主題。
 
 啊，是的，我選用了Hugo+Congo的組合，聽說Congo也是那種麻雀衰小五臓俱全型的極簡主題，所以就試著用看看，這個主題把我拉的屎裝潢得如此素雅，實在讓我有些害臊。
 
