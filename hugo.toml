@@ -8,9 +8,10 @@ disableLanguages = ["en"]
 summaryLength = 0
 hasCJKLanguage = false
 
-[taxonomy]
+[taxonomies]
 
 [params]
+	colorScheme = "cherry"
 	enableSearch = true
 	mainSections = ["post"]
 
