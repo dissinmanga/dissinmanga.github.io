@@ -25,6 +25,9 @@ hasCJKLanguage = false
 [params.footer]
 	showAppearanceSwitcher = true
 
+[params.article]
+	invertPagination = true
+
 [pagination]
 	pagerSize = 30
 
