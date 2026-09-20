@@ -40,5 +40,9 @@ hasCJKLanguage = false
 	name = "隨機"
 	url = "/#random" 
 
+[privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
 [outputs]
-	home = ["HTML", "JSON"]
+	home = ["HTML", "RSS", "JSON"]
