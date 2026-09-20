@@ -6,7 +6,7 @@ defaultContentLanguage = "zh-hant"
 disableLanguages = ["en"]
 
 summaryLength = 0
-hasCJKLanguage = false
+hasCJKLanguage = true
 
 [taxonomies]
 
