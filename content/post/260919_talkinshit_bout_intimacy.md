@@ -53,7 +53,7 @@ summary: " "
 
 想到後來，我好像就能明白，為什麼手遊廣告這麼喜歡凍僵母女。
 
-![](https://play-lh.googleusercontent.com/POMXZ4JeHQTGDM6IF2QhEJ6D9YOZ7PLjIE6xchFTnHfMPlDOwMKhBaqaCrnHB__TaCCRbnPXHVzw7oO8zkvKQw)
+![](/blogpics/260919_talkinshit_bout_intimacy_home_pin.webp)
 
 ◆
 
