@@ -1,3 +1,6 @@
 [submodule "themes/congo"]
 	path = themes/congo
 	url = https://github.com/jpanther/congo.git
+[submodule "static/blogpics"]
+	path = static/blogpics
+	url = ../blogpics.git

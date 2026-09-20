@@ -28,15 +28,15 @@ summary: " "
 
 {{< youtube "fR0tqhqM7Yg" >}}
 
-> 太平洋是你看到的第一片大海，親愛的，即使你對太平洋留下了「這就是大海」的印象，我希望有一天，你會發現，不是所有的大海，都是讓你深深傷心的太平洋。
+> 太平洋是你看到的第一片大海，親愛的，即使你對太平洋留下了「這就是大海」的印象，我希望有一天，你會發現，不是所有的大海，都是那片讓你深深傷心的太平洋。
 
 只是這種感受，它可以是生死之交那至死不渝的羈絆。
 
-![](https://megapx-assets.dcard.tw/images/ca28a800-8556-41e7-b3a1-783cdd0dcd45/640.jpeg)
+![](/blogpics/260920_no_guidance_pt2_jujutsu_01.webp)
 
 也可以是美好的過去為什麼會漸行漸遠呢。
 
-![](https://megapx-assets.dcard.tw/images/75782676-35b2-41b1-af38-9c563aa108a2/1280.jpeg)
+![](/blogpics/260920_no_guidance_pt2_jujutsu_02.webp)
 
 又好比五條悟在雙玉篇沉浸在自身能力的成長時的顛狂，這在五宿戰中兩人不斷破壞設定，超乎常理的成長中也有高密度的描寫。
 
@@ -68,6 +68,6 @@ summary: " "
 
 [^1]: [[情報] 大學教授分析葬送的芙莉蓮會紅的原因在](https://www.pttweb.cc/bbs/C_Chat/M.1697809446.A.E3E)
 
-[^2]: ![](https://preview.redd.it/pouf-as-a-character-is-so-good-because-hes-the-only-one-v0-gx3cst1k53kg1.jpeg?width=640&crop=smart&auto=webp&s=18fe7b67052d1c1d6566c8f18ffd1f1bab7b099f)
+[^2]: ![](/blogpics/260920_no_guidance_pt2_chimera.webp)
 
 [^3]: 空白螢幕不應該有回應，所以雖然我手癢過，但這裡不會有留言板，不會有social media的連結。
