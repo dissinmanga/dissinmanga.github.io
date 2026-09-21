@@ -35,7 +35,7 @@ summary: " "
 
 應該還有更漂亮的改法，但我懶了，笑死。
 
-考量到Github Pages要求repository公開的設定，最好先弄一個`.gitignore`把`.obsidian`設定成不要同步，如果你打算設定Obsidian Git，會需要申請GitHub的access token，我不確定Obsidian會不會把這個token明碼儲存，如果會的話，你一把`.obsidian`丟上去，隨便一個幼稚園小孩都可以把你的帳號當公廁。
+考量到Github Pages要求repository公開的設定，最好先弄一個`.gitignore`把`.obsidian`設定成不要同步，如果你打算設定Obsidian Git，會需要申請GitHub的access token，我不確定Obsidian會不會把這個token明碼儲存，如果會的話，你一把`.obsidian`丟上去，隨便一個幼稚園小孩都可以把你的帳號當公廁[^1]。
 
 所以回顧一下我對obsidian做了什麼手腳︰
 + 更改新檔案路徑→config放在`.obsidian/app.json`
@@ -74,3 +74,5 @@ https://[your account]:[your PAT]@github.com/dissinmanga/dissinmanga.github.io.g
 我到底有多不尊重blog到什麼地步？
 
 所以我不會考慮把Obsidian加入我的寫作Workflow，手機是寫不了認真長文的。
+
+[^1]: 後來我試了一下，GitHub會偵測push上去的commit，若包含token，它會擋下來，確定你真的知道自己在做什麼
