@@ -45,7 +45,7 @@ oh lord，為什麼要把我生得這麼機巴，oh lord。
 
 有請我們的[藤他媽本樹]({{< relref "260913_fujitamatotsuki">}})用圖來展示，一個人到底會有多在意負面評價︰
 
-| ![](/static/blogpics/260922_add_me_in_tatsuki_praise.webp) | ![](/static/blogpics/260922_add_me_in_tatsuki_critics.webp) |
+| ![](/blogpics/260922_add_me_in_tatsuki_praise.webp) | ![](/blogpics/260922_add_me_in_tatsuki_critics.webp) |
 | ---------------------------------------------------------- | ----------------------------------------------------------- |
 是的，三個當面稱讚[^2]的成年人打不過一個同班同學的無心之言。就我側面觀察幾個公眾人物，他們似乎有注意到正負評價在某個比例之下很容易讓自己掉進負面漩渦裡。
 
