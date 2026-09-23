@@ -17,7 +17,7 @@ summary: " "
 
 這套動畫最讓我印象深刻的一集，當屬棉孢子。
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBPQGyIjuF930ESITNQMa1gUIJcPS1xYE2t0iHc4VIpqI3plX6CD5Ev8hRhfYjJ2HxncgJtxIr211BVMo0j7yei-uqFN7Y0zgeqn8-02fWLaovAtyjS7YwQiBTgqwP_CcicAhmgNtxYG_1/s1600/PDVD_003.jpg)
+![](/blogpics/260922_add_me_in_mushishi.webp)
 
 這集應該算是蟲師數一數二的大hit，看過這集的無一不感到毛骨悚然（？），這個蟲的設定是會將卵寄生在孕婦的胎兒身上，令孕婦產下死胎（實則是蟲，後面逃到房子底下），當媽媽陷在喪子之痛時，再從地下送來源源不絕的胎兒（實則為蟲的延伸體，稱之人茸），靠母愛獲得養分與智力而不斷茁壯——然而人茸的生命僅三年，死後會散播更多的孢子。
 
@@ -76,7 +76,7 @@ oh lord，為什麼要把我生得這麼機巴，oh lord。
 
 ◆
 
-在看完棉孢子的當下，我對媽媽對小孩的執著真的很驚人，即使小孩最後選擇放火燒房子與蟲師同歸於盡，媽媽居然還是想撲進火場裡去救人。
+在看完棉孢子的當下，我覺得媽媽對小孩的執著真的很驚人，即使小孩最後選擇放火燒房子與蟲師同歸於盡，媽媽居然還是想撲進火場裡去救人。
 
 不過，在環境小得只有這些披著人類小孩皮的蟲時，又有什麼東西能夠相信呢？
 
