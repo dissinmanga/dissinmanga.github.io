@@ -44,5 +44,14 @@ hasCJKLanguage = true
     disabled = false
     privacyEnhanced = true
 
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputFormats]
+  [outputFormats.Atom]
+    mediaType = "application/atom+xml"
+    baseName = "atom"
+
 [outputs]
-	home = ["HTML", "RSS", "JSON"]
+	home = ["HTML", "RSS", "ATOM", "JSON"]

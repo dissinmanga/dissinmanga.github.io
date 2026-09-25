@@ -11,7 +11,7 @@ summary: " "
 
 起初我以為這是六人行式的陪伴與迷惘，也許是坂田銀時那種軟爛的樣子，過著被登勢婆婆追討租金的日子，經營著風雨飄搖的萬事屋。後來，越想越不對。
 
-應該很多人都有感覺到，不管是[鬼滅之刃]({{< relref "260910_10th_anniversary_kimetsu_holy_shit">}})、[鏈鋸人]({{< relref "260913_fujitamatotsuki">}})、以前寫過的[馬修]({{< relref "260909_mashle_not_gag">}})，還是我在這篇想聊的咒術迴戰，它們底色的憤怒味非常濃。
+應該很多人都有感覺到，不管是[鬼滅之刃]({{< relref "260910_10th_anniversary_kimetsu_holy_shit">}})、[鏈鋸人]({{< relref "260913_fujitamatotsuki">}})、以前寫過的[馬修]({{< relref "260909_mashle_not_gag">}})，還是我在這篇想聊的咒術迴戰，它們底層的憤怒味非常濃。
 
 ◆
 
