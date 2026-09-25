@@ -40,6 +40,14 @@ hasCJKLanguage = true
 	name = "隨機"
 	url = "/#random" 
 
+[[menu.main]]
+	name = "隨機RSS"
+	url = "/atom.xml"
+	[menu.main.params]
+		icon = "rss" 
+		showName = false
+		target = "_blank"
+
 [privacy.youtube]
     disabled = false
     privacyEnhanced = true
