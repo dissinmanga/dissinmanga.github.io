@@ -3,9 +3,5 @@
 	url = "/post/" 
 
 [[main]]
-	name = "札記"
-	url = "/notes/"
-
-[[main]]
 	name = "隨機"
 	url = "/#random" 

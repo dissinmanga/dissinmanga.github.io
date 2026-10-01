@@ -2,7 +2,7 @@
 date: 2026-09-27T21:34:38+08:00
 draft: false
 title: 評論的解釋力與棘手的遺憾
-description:
+description: 沒有人管得了你想把世界的中心釘在哪裡，但當你想強迫別人接受異端學說，拉扯就會開始。
 summary:
 ---
 也是一個想談很久的題目。

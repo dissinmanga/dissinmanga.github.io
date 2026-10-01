@@ -2,7 +2,7 @@
 date: 2026-09-27T23:33:22+08:00
 draft: false
 title: 無題 ③
-description: " "
+description: 重新認識一件事物，與當年的自己和解的感覺，真的很美好。
 summary: " "
 ---
 最近出於興趣在摸Rust，到了Hash的章節時，不禁在想一些事。

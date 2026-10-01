@@ -5,8 +5,6 @@ description:
 summary:
 ---
 
-{{< lead >}}
-◆ 整修中
-{{< /lead >}}
+{{<  fortune >}}
 
 {{<  wordcount >}}

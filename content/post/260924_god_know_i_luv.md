@@ -2,7 +2,7 @@
 date: 2026-09-24T21:29:32+08:00
 draft: false
 title: 業果
-description:
+description: 誰又不是在一樁樁微小的錯誤中慢慢走過來的？
 summary:
 ---
 我一焦躁起來就有抖腳的習慣。

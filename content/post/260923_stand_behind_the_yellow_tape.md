@@ -2,8 +2,8 @@
 date: 2026-09-23T11:16:24+08:00
 draft: false
 title: 山獸神與大宇宙意志
-description: " "
-summary: " "
+description: 沒有正，何來反？
+summary:
 ---
 人到了一個階段，為什麼總會尋求一些精神寄託的事物呢？後來我發現答案一直很簡單。
 

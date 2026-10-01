@@ -1,0 +1,19 @@
+<script>
+  {
+    const fortune = async (event) => {
+      event.preventDefault();
+      const fortunes = await fetch("/index.json")
+        .then(r => r.json())
+        .then(r => r.filter(i => i.description && i.description.trim() != "" && i.date))
+        .catch(()=>({}));
+      if (!fortunes) return;
+
+      const fortuneElement = document.getElementById("fortune");
+      if (fortuneElement) {
+        fortuneElement.innerText = "◆ "+fortunes[Math.floor(Math.random() * fortunes.length)].description;
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", fortune);
+  }
+</script>

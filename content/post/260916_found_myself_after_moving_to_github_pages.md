@@ -1,8 +1,8 @@
 ---
 date: 2026-09-16T13:12:25+08:00
 draft: false
-title: 搬家到Github Pages，又一次找回自己
-description: " "
+title: 搬家
+description:
 summary: " "
 ---
 漫畫寫的是故事，故事寫的是人；意即，今天嘴漫畫，嘴的，也可以是人。
@@ -71,7 +71,4 @@ Congo居然把noreferrer的機制做掉了…不錯啊…。
 
 太自動的系統果然有它的問題在。
 
-是說我一邊敲下這個標題[^1]，一邊在想我會被討厭不是沒有理由的，有夠靠北。
-
-[^1]: [COSCUP 2026 - 又一次找回自己](https://blog.giveanornot.com/coscup-2026/)
 [^2]: 到底還可以再鞭屍幾次，我快笑死。

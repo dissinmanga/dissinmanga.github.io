@@ -1,1 +1,5 @@
 {{ partial "random_post.html" . }}
+
+{{ if .IsHome -}}
+    {{ partial "random_fortune.html" . }}
+{{- end }}

@@ -2,7 +2,7 @@
 date: 2026-09-21T20:07:11+08:00
 draft: false
 title: 人需要一個攜帶式廁所嗎？
-description: " "
+description: 我把一件事用我自己的語言寫下來，把引用的連結記錄下來，公開發佈，我就覺得這件事對我來說已經結案了。
 summary: " "
 ---
 

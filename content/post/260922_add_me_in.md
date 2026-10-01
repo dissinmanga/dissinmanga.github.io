@@ -2,7 +2,7 @@
 date: 2026-09-22T21:14:46+08:00
 draft: false
 title: 棉孢子與大宇宙意志
-description: " "
+description: 在環境小得只有這些披著人類小孩皮的蟲時，又有什麼東西能夠相信呢？
 summary: " "
 ---
 大家看過蟲師嗎？
