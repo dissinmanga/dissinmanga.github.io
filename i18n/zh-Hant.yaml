@@ -1,0 +1,7 @@
+error:
+  404_title: "找不到網頁 :confused:"
+  404_error: "404 錯誤"
+  404_description: "頁面不存在。"
+
+shortcode:
+  recent_articles: "近期文章"

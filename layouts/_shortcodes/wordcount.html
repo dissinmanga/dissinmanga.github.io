@@ -1,0 +1,7 @@
+{{- $scratch := newScratch -}}
+{{- range .Site.RegularPages -}}
+  {{- $scratch.Add "total" .WordCount -}}
+{{- end -}}
+
+
+<span>目前累積 {{ lang.FormatNumber 0 (len .Site.RegularPages) }} 篇文章，共約 {{ lang.FormatNumber 0 ($scratch.Get "total") }} 字</span>

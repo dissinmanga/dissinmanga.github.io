@@ -1,0 +1,30 @@
+baseURL = 'https://dissinmanga.github.io/'
+locale = "zh-hant"
+title = '今天嘴Manか？'
+theme = 'congo'
+defaultContentLanguage = "zh-hant"
+disableLanguages = ["en"]
+
+summaryLength = 0
+hasCJKLanguage = true
+
+[taxonomies]
+
+[pagination]
+	pagerSize = 30
+
+[privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputFormats]
+  [outputFormats.Atom]
+    mediaType = "application/atom+xml"
+    baseName = "atom"
+
+[outputs]
+	home = ["HTML", "RSS", "ATOM", "JSON"]

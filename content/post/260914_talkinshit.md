@@ -57,7 +57,7 @@ Ragebait耶。
 
 寫到這裡你不難發現為什麼喜劇演員最後很容易自殺，他們這行不是很好賺錢之餘，又天生容易把別人的陰暗面呑進去，呑久之後很難不爆開。
 
-前幾天我在某個自由軟體愛好者與音樂家的blog[^2]看到他在替自己的語意向量程式[打廣告](https://wewill.blog/blog/embedding-search)——如果你覺得網域看起來怪怪的，你是對的，請手動改一下，我可不想在這個超連結上被bearblog出賣。得說這個替自己的作品打廣告的寫法非常的優秀。
+前幾天我在某個自由軟體愛好者與音樂家的blog[^2]看到他在替自己的語意向量程式[打廣告](https://wiwi.blog/blog/embedding-search)。得說這個替自己的作品打廣告的寫法非常的優秀。
 
 後來我才發現他其實只是前一天把自己的self-hosted代理托管服務在gitea搬到forgejo，如果你不知道發生什麼事，gitea這個open source project因為主導人跑去開公司，綁了gitea的商標走，下面的人憤而fork出了forgejo——這個東西是有fedora在後面撐腰的喔。
 
@@ -71,7 +71,7 @@ Ragebait耶。
 
 只是我就很難不去想，對這個人來說，值得記錄的應該還是gitea→forgejo的過程吧？我這種只想到自己的人就很討人厭，笑死。
 
-[apple發表會這篇](https://wiwill.blog/blog/iphone-duo)就是一篇很典型的手天使文章了——老樣子，請自己改網域——當然，他也有可能是apple的酸民。
+[apple發表會這篇](https://wiwi.blog/blog/iphone-duo)就是一篇很典型的手天使文章了——當然，他也有可能是apple的酸民。
 
 老實說，我是看到這篇才知道apple的發表會過了，也才知道tim cook卸下職務了。
 

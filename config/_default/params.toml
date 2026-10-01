@@ -1,0 +1,18 @@
+colorScheme = "fire"
+enableSearch = true
+mainSections = ["post"]
+
+[homepage]
+	layout = "page"
+	showRecent = true
+	recentLimit = 6
+
+[header]
+	layout = "hybrid"
+
+[footer]
+	showAppearanceSwitcher = true
+
+[article]
+	invertPagination = true
+
