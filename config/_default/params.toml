@@ -1,6 +1,7 @@
 colorScheme = "fire"
 enableSearch = true
 mainSections = ["post"]
+dateFormat = "2006-01-02"
 
 [homepage]
 	layout = "page"
