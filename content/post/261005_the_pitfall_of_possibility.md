@@ -1,7 +1,7 @@
 ---
 date: 2026-10-05T22:43:38+08:00
 draft: false
-title: ""
+title: 預設值與可能性陷阱
 description:
 summary: " "
 ---
