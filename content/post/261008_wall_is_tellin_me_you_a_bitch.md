@@ -49,7 +49,7 @@ Kendrick Lamar有一首名曲，似乎在影射Drake在Lil Wayne於監牢時背�
 
 而後，我思索著，如果我們因牆而感到不自由，那麼，理解牆的存在，理解牆的限制，既理解了如何與牆共處，又演示過沒有牆的情況，再疊一層令自己心嚮往之的希望，心是否會因而自由？
 
-[^1]: 就好比總被我視作美沙冬的各類創作，卻能得到andy那句「hope is a good thing, maybe the best of things, and no good thing ever dies」的肯定一般。
+[^1]: 就好比總被我視作美沙冬的各類創作，卻能得到andy那句「hope is a good thing, maybe the best of things, and no good thing ever dies」的肯定一般，andy給red留了一個hope，即使觀眾不若red有andy這樣的摯交，也能感受到hope可以是很美好的事物——一想到是否該堅持hope一定要是andy，這似乎又是個可以胡扯一長串的題目。
 
 [^2]: 我想提德魯依代代相傳、極度重視身教的事情很久了，但因為我感覺可能等不到那天，所以我丟在這裡。
 
