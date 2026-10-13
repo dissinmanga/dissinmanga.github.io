@@ -8,7 +8,7 @@ math: true
 ---
 我終於受夠Bearblog了。
 
-其實Bearblog也沒有惹到我什麼，只是在我某一天起床時，實在是受不了總是要先送成草稿再修改連結的工作方式了，恰好[這篇]({{< relref "260914_talkinshit" >}})讓我實在很想試一下用Obsidian當CMS的手感，再加上我一直想找個理由體驗一下Github Actions。
+其實Bearblog也沒有惹到我什麼，只是在我某一天起床時，實在是受不了總是要先送成草稿再修改連結的工作方式了，恰好這篇讓我實在很想試一下用Obsidian當CMS的手感，再加上我一直想找個理由體驗一下Github Actions。
 
 於是我，創了新的Github帳號，建立了新的repository，加入了public ssh key，拉下repository，用`hugo new project dissinmanga.github.io --force`建立新紀元，用`git submodule https://github.com/jpanther/congo.git theme/congo`拉了Hugo的主題。
 
