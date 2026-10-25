@@ -20,7 +20,6 @@ summary:
 總之，我第一個寫出來的版本長這樣︰
 
 ```rust
-```rust
 pub fn is_palindrome(s: String) -> bool {
 	let mut t = s.chars()
 		.filter(|c| c.is_ascii_alphanumeric())
