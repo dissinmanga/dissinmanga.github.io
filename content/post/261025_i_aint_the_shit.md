@@ -8,7 +8,7 @@ summary:
 {{< katex >}}
 如果說挫折總要隨便找個理由發洩出去，那這個理由通常不會多有道理。
 
-我對C++有一個很奇妙的反感點[^3]，array與vector共存，我知道這件事很荒謬。一個靜態語言在使用一段連續的memory時，必須事先講清楚我要用多少（`int a[16]`一類的），vector則是把宣告在heap上，使用到某個長度時則double等細節包成一句`std::vector<int> a(16)`。
+我對C++有一個很奇妙的反感點[^3]，array與vector共存，我知道這件事很荒謬。一個靜態語言在使用一段連續的memory時，必須事先講清楚我要用多少（`int a[16]`一類的），vector則是把宣告在heap上，使用到某個長度時則double等細節包成一句`std::vector<int> a(16)`[^6]。
 
 類似的心病在`std::string`上也有出現，也許我早該去面對這個糾結背後的點。
 
@@ -35,11 +35,11 @@ pub fn is_palindrome(s: String) -> bool {
 }
 ```
 
-當時在寫時，除了覺得感覺像在作弊外，又再一次理解了特意在array外包一層`String`、`Vec`的原因——在rust裡是不能用index直接去翻`String`的[^5]，就是考量到CJK、emoji的寬度跟英數字元不同，所以rust希望你在這麼幹之前先寫出`as_bytes()`[^1]，有點像是你開車壓到道路邊線時設計成讓汽車尖叫，你要主動跟汽車說︰「對，我現在就是要壓邊線，thanks for your opinion and shut the fuck up.」[^2]。
+當時在寫時，除了覺得感覺像在作弊外，又再一次理解了特意在array外包一層`String`、`Vec`的原因——在rust裡是不能用index直接去翻`String`的[^5]，就是考量到CJK、emoji的寬度跟英數字元不同，所以rust希望你在這麼幹之前先寫出`as_bytes()`[^1]，有點像是你開車壓到道路邊線時設計成讓汽車尖叫，你要主動跟汽車說︰「對，我現在就是要壓邊線，thanks for your opinions and shut the fuck up.」[^2]。
 
 有夠安全，被這層門擋在外面的我不禁這麼想，而在我還跟rust不太熟悉的狀況下，幾乎是被迫去用雙端迭代器來處理這題。
 
-用上`as_bytes()`後就能解鎖two pointer這個老手段來做︰
+用上`as_bytes()`後就能解鎖two pointers這個老手段來做︰
 
 ```rust
 pub fn is_palindrome(s: String) -> bool {
@@ -75,6 +75,8 @@ def isPalindrome(self, s: str) -> bool:
 
 [^3]: 現在已經沒有了，之前我還有在玩social media時，發現這類心境有反轉的文章，如果沒有讓讀者跟上反轉會被誤會，而我對自己的寫作能力已經沒有信心了，所以在這邊補充。
 
-[^4]: 我是滿粗心的人來著，而我對於`fold()`, `map()`, `filter()`一類可以減少各種index與迴圈的函數情有獨鍾，像這題，其實我第一版寫得很快，基本只花了一點時間在怎麼完成alphanumeric的判斷跟大小寫——如你所見，現代語言把這些操作都包好了。雖然時間複雜度都是\(\mathcal{O}(n)\)，我不確定rust對iterator的惰性求值特性是否能把看起來像要對同個`nums`跑兩次迴圈壓成一次，不知道怎麼trace，我就爛。
+[^4]: 我是滿粗心的人來著，而我對於`fold()`, `map()`, `filter()`一類可以減少各種index與迴圈的函數情有獨鍾，像這題，其實我第一版寫得很快，基本只花了一點時間在怎麼完成alphanumeric的判斷跟大小寫——如你所見，現代語言把這些操作都包好了，反而第二版的條件我總是要花好一陣子去調。雖然時間複雜度都是\(\mathcal{O}(n)\)，我不確定rust對iterator的惰性求值特性是否能把看起來像要對同個`nums`跑兩次迴圈壓成一次，不知道怎麼trace，我就爛。
 
 [^5]: 這讓我回想起一件事，以前跟朋友討論時，一致認為OO的封裝為的就是這類保護，我原本想說OO已死，不過，與其說它死了，不如說是OO這個包裝已經不再新鮮，但被打包起來的各種概念已經成為了膝反射。
+
+[^6]: 我現在還是沒有搞懂`using namespace std`是怎麼回事。
