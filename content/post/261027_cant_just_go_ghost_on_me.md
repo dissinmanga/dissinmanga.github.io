@@ -14,7 +14,7 @@ def createGrid(self, m: int, n: int) -> list[str]:
 
 ~~其實我本來打算以「為什麼我愛大蟒蛇」為題，然後只貼上面那一行，但想想實在太下流，就沒這麼幹。~~[^1]
 
-在整理自己寫過的那些東西時，因為實在有點在意list comprehension和generator expression的效能問題，就又寫了這個︰
+在整理自己寫過的那些東西時，因為實在有點在意list comprehension和generator expression的效能問題，就又寫了這個[^2]︰
 
 ```python
 def createGrid(self, m: int, n: int) -> list[str]:
@@ -134,3 +134,5 @@ Result:
 ```
 
 [^1]: ~~所以我放在另一個有緣就看得到的地方了。~~
+
+[^2]: 這是generator的版本，把`join()`裡面最外層的小括改中括就是list comprehension的版本了。
