@@ -87,7 +87,7 @@ TypeError: 'str' object does not support item assignment
 #### Ruby
 
 ```ruby
-b=a; c=a; b+=[2]; c.append(5)
+a=[1]; b=a; c=a; b+=[2]; c.append(5)
 p a, b, c
 p a.object_id, b.object_id, c.object_id
 ```
