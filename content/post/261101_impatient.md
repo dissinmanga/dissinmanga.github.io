@@ -65,7 +65,7 @@ sum: 55
 
 > `std::reduce` behaves like [std::accumulate](https://en.cppreference.com/cpp/algorithm/accumulate "cpp/algorithm/accumulate") except the elements of the range may be grouped and rearranged in arbitrary order.
 
-事情差不多就結束了——等等，亂序是怎樣？
+事情差不多就結束了——等等，亂序是怎樣？[^1]
 
 我先把原本想講的講完，看到這個當下讓我馬上開了python跑差不多的東西︰
 
@@ -79,3 +79,5 @@ sum: 55
 ◆
 
 寫著寫著，我感覺有好多該反省的地方，像是只看那些酷酷的東西，卻對那些基本功興趣缺缺什麼的。耐著性子好好幹吧…。
+
+[^1]: 後來看到exception，看起來`reduce()`是通過平行運算加速——反正最後終會摺成一個值，只要運算本身符合交換律與結合律就沒問題。
