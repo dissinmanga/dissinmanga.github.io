@@ -65,7 +65,7 @@ sum: 55
 
 > `std::reduce` behaves like [std::accumulate](https://en.cppreference.com/cpp/algorithm/accumulate "cpp/algorithm/accumulate") except the elements of the range may be grouped and rearranged in arbitrary order.
 
-事情差不多就結束了——不是，這居然能亂序執行？
+事情差不多就結束了——等等，亂序是怎樣？
 
 我先把原本想講的講完，看到這個當下讓我馬上開了python跑差不多的東西︰
 
