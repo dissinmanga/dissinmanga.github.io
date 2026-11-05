@@ -21,7 +21,7 @@ summary: " "
 
 我不知道是不是自己在執著什麼best practice，而在事情不只是單檔的情況下，好像就會讓我有某種本能性的恐懼感。
 
-於是在我下了`cargo new`，於是它照著指令建立出了project directory，我看了一下，裡面就躺著`Cargo.toml`跟`main.rs`，於是我用editor打開它，code highlight很好地工作，rust-analyzer亦如是，還有很舒服的自動補完。
+於是在我下了`cargo new`，於是它照著指令建立出了project directory，我看了一下，裡面就躺著`Cargo.toml`跟`main.rs`，於是我用editor打開它，syntax highlight很好地工作，rust-analyzer亦如是，還有很舒服的自動補完。
 
 我突然弄不明白，在今天之前的自己是在抗拒什麼。
 
