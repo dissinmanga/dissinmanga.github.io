@@ -59,7 +59,7 @@ int main()
 
 ◆
 
-昨天寫[這題](https://leetcode.com/problems/insert-interval/description/)時，
+昨天寫[這題](https://leetcode.com/problems/insert-interval/description/)時，花了一點心力。
 
 一般來說，這題的切法就是從頭一個個檢查，跟要安插的區間沒有重疊的就直接塞到要回傳的空array，遇到重疊到的，就把在區間裡的那些區間吐掉，直到出區間為止，把這些併起來後塞回去，再把剩下的那些全塞回去。
 
