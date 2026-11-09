@@ -11,7 +11,7 @@ summary: " "
 
 好懶得用逛街的心態去逛github…。
 
-於是又繞回去打拳——靠北我剛練起來的流派被[禁賽](https://leetcode.com/problems/add-two-numbers/)。
+於是又繞回去打拳——靠北我剛練起來的流派被[禁賽](https://leetcode.com/problems/linked-list-cycle/)。
 
 ![](https://www.blindfiveyearold.com/wp-content/uploads/2015/06/unacceptable-lemongrab-e1434739410519.png)
 
