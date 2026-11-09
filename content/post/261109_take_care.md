@@ -15,7 +15,7 @@ summary: " "
 
 ![](https://www.blindfiveyearold.com/wp-content/uploads/2015/06/unacceptable-lemongrab-e1434739410519.png)
 
-說來這似乎是Rust的硬性限制造成的，人稱王老先生有塊地，在Rust裡，這塊地就只能是王老先生的，除非王老先生把產權過渡出去，當王老先生死前若沒有把這塊地交出去，等王老先生死了，Rust就會自己跑過來把這塊地充公。
+說來這似乎是Rust的硬性限制造成的，人稱王老先生有塊地，在Rust裡，這塊地就只能是王老先生的——除非王老先生把產權過渡出去。而王老先生死前若沒有把這塊地交出去，等王老先生死了，Rust就會自己跑過來把這塊地充公。
 
 {{< mermaid >}}
 flowchart LR
