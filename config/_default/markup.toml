@@ -8,4 +8,4 @@
   block = [['\[', '\]'], ['$$', '$$']]
   inline = [['\(', '\)'], ['$', '$']]
 [highlight]
-  style = "monokai"
+  style = "evergarden"
