@@ -1,0 +1,67 @@
+<canvas id="game-of-life-canvas"></canvas>
+<script type="module">
+    import init, { Universe } from '/gol/game_of_life.js';
+
+    const CELL_SIZE = 10; // px
+    const GRID_COLOR = "#CCCCCC";
+    const DEAD_COLOR = "#292524";
+    const ALIVE_COLOR = "#A3E635";
+
+    async function run() {
+    const wasm = await init('/gol/game_of_life_bg.wasm');
+
+    const universe = Universe.new();
+    const width = universe.width();
+    const height = universe.height();
+
+    const canvas = document.getElementById("game-of-life-canvas");
+    canvas.height = (CELL_SIZE + 1) * height + 1;
+    canvas.width = (CELL_SIZE + 1) * width + 1;
+
+    const ctx = canvas.getContext('2d');
+
+    const getIndex = (row, column) => {
+        return row * width + column;
+    };
+
+    const drawCells = () => {
+        const cellsPtr = universe.cells();
+        const cells = new Uint32Array(wasm.memory.buffer, cellsPtr, width * height);
+
+        ctx.beginPath();
+
+        for (let row = 0; row < height; row++) {
+        for (let col = 0; col < width; col++) {
+            const idx = getIndex(row, col);
+
+            ctx.fillStyle = cells[idx] === 0
+            ? getComputedStyle(document.body).backgroundColor
+            : ALIVE_COLOR;
+
+            ctx.fillRect(
+            col * (CELL_SIZE + 1) + 1,
+            row * (CELL_SIZE + 1) + 1,
+            CELL_SIZE,
+            CELL_SIZE
+            );
+        }
+        }
+
+        ctx.stroke();
+    };
+
+    let lasttime = 0;
+    const renderLoop = (timestamp) => {
+        if (180 <= timestamp - lasttime){
+        lasttime = timestamp;
+        universe.tick();
+        drawCells();
+        }
+        requestAnimationFrame(renderLoop);
+    };
+    drawCells();
+    requestAnimationFrame(renderLoop);
+    }
+
+    run();
+</script>
