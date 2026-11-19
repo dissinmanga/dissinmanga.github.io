@@ -20,4 +20,4 @@ Rust的Ownership有幾個規則[^1]：
 
 總是這樣短視的話，會因小失大的。
 
-[^1]: 基本只針對那些比reference的記憶還大的物件（not implementing copy trait），其餘的沒有人在管ownership的。
+[^1]: 基本只針對那些比reference的記憶還大的物件（not implementing copy trait），其餘的沒有人在管ownership的——剛剛查了一下才發現其實可以做出比ref小但沒實作copy trait的型別，OK…。
