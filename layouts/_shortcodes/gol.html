@@ -1,9 +1,9 @@
 <canvas id="game-of-life-canvas"></canvas>
 <script type="module">
-    import init, { Universe } from '/gol/game_of_life.js';
+    import init, { Universe } from '/gol/wasm_game_of_life.js';
 
     async function run() {
-        const wasm = await init('/gol/game_of_life_bg.wasm');
+        const wasm = await init();
 
         const universe = Universe.new();
         const width = universe.width();

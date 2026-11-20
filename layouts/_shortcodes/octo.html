@@ -3,7 +3,7 @@
     import init, { Emu } from '/octo/wasm_chip_8.js';
 
     async function run() {
-        const wasm = await init('/octo/wasm_chip_8_bg.wasm');
+        const wasm = await init();
 
         const emu = Emu.new();
         const [width,height] = [Emu.width(),Emu.height()];
