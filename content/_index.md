@@ -7,6 +7,4 @@ summary:
 
 {{<  fortune >}}
 
-{{< octo >}}
-
 {{<  wordcount >}}

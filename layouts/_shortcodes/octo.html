@@ -36,10 +36,10 @@
                     : ALIVE_COLOR;
 
                     ctx.fillRect(
-                    col * (CELL_SIZE + 1) + 1,
-                    row * (CELL_SIZE + 1) + 1,
-                    CELL_SIZE,
-                    CELL_SIZE
+                        col * (CELL_SIZE + 1) + 1,
+                        row * (CELL_SIZE + 1) + 1,
+                        CELL_SIZE,
+                        CELL_SIZE
                     );
                 }
             }
@@ -49,7 +49,7 @@
 
         const updateDisplay = () => {
             if (!emu.get_draw_flag()){
-            return;
+                return;
             }
             drawDisplay();
         }
@@ -58,7 +58,6 @@
             emu.load_rom();
         }
 
-        console.log("test");
         const frameLoop = (timestamp) => {
             for(let i =0;i<10;i++){
                 emu.tick();
