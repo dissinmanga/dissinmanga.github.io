@@ -1,0 +1,75 @@
+<canvas id="chip-8-canvas"></canvas>
+<script type="module">
+    import init, { Emu } from '/octo/wasm_chip_8.js';
+
+    async function run() {
+        const wasm = await init('/octo/wasm_chip_8_bg.wasm');
+
+        const emu = Emu.new();
+        const [width,height] = [Emu.width(),Emu.height()];
+
+        const canvas = document.getElementById("chip-8-canvas");
+        const ctx = canvas.getContext('2d');
+        const containerWidth = canvas.parentElement.clientWidth;
+        const CELL_SIZE = Math.floor(containerWidth / width);
+        const ALIVE_COLOR = "#A3E635";
+
+        canvas.height = (CELL_SIZE + 1) * height + 1;
+        canvas.width = (CELL_SIZE + 1) * width + 1;
+
+        const getIndex = (row, column) => {
+            return row * width + column;
+        };
+
+        const drawDisplay = () => {
+            const displayPtr = emu.get_display_pointer();
+            const display = new Uint8Array(wasm.memory.buffer, displayPtr, width * height);
+
+            ctx.beginPath();
+
+            for (let row = 0; row < height; row++) {
+                for (let col = 0; col < width; col++) {
+                    const idx = getIndex(row, col);
+
+                    ctx.fillStyle = display[idx] === 0
+                    ? getComputedStyle(document.body).backgroundColor
+                    : ALIVE_COLOR;
+
+                    ctx.fillRect(
+                    col * (CELL_SIZE + 1) + 1,
+                    row * (CELL_SIZE + 1) + 1,
+                    CELL_SIZE,
+                    CELL_SIZE
+                    );
+                }
+            }
+
+            ctx.stroke();
+        };
+
+        const updateDisplay = () => {
+            if (!emu.get_draw_flag()){
+            return;
+            }
+            drawDisplay();
+        }
+
+        const load_rom = () => {
+            emu.load_rom();
+        }
+
+        console.log("test");
+        const frameLoop = (timestamp) => {
+            for(let i =0;i<10;i++){
+                emu.tick();
+            }
+            updateDisplay();
+            requestAnimationFrame(frameLoop);
+        };
+        load_rom();
+        updateDisplay();
+        requestAnimationFrame(frameLoop);
+    }
+
+    run();
+</script>
