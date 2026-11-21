@@ -1,0 +1,93 @@
+<canvas id="chip-8-canvas"></canvas>
+<script type="module">
+    import init, { Emu } from '/invaders/wasm_chip_8.js';
+
+    async function run() {
+        const wasm = await init();
+
+        const emu = Emu.new();
+        const [width,height] = [Emu.width(),Emu.height()];
+
+        const canvas = document.getElementById("chip-8-canvas");
+        const ctx = canvas.getContext('2d');
+        const containerWidth = canvas.parentElement.clientWidth;
+        const CELL_SIZE = Math.floor(containerWidth / width);
+        const ALIVE_COLOR = "#A3E635";
+        const KEY_MAP = {
+            'Digit1': 0x1, 'Digit2': 0x2, 'Digit3': 0x3, 'Digit4': 0xC,
+            'KeyQ':   0x4, 'KeyW':   0x5, 'KeyE':   0x6, 'KeyR':   0xD,
+            'KeyA':   0x7, 'KeyS':   0x8, 'KeyD':   0x9, 'KeyF':   0xE,
+            'KeyZ':   0xA, 'KeyX':   0x0, 'KeyC':   0xB, 'KeyV':   0xF,
+        };
+
+        canvas.height = (CELL_SIZE + 1) * height + 1;
+        canvas.width = (CELL_SIZE + 1) * width + 1;
+
+        document.addEventListener('keydown', (e) => {
+            if (e.code in KEY_MAP && !e.repeat) {
+                emu.key_down(KEY_MAP[e.code]);
+            }
+        });
+
+        document.addEventListener('keyup', (e) => {
+            if (e.code in KEY_MAP) {
+                emu.key_up(KEY_MAP[e.code]);
+            }
+        });
+
+        const getIndex = (row, column) => {
+            return row * width + column;
+        };
+
+        const drawDisplay = () => {
+            const displayPtr = emu.get_display_pointer();
+            const display = new Uint8Array(wasm.memory.buffer, displayPtr, width * height);
+
+            ctx.beginPath();
+
+            for (let row = 0; row < height; row++) {
+                for (let col = 0; col < width; col++) {
+                    const idx = getIndex(row, col);
+
+                    ctx.fillStyle = display[idx] === 0
+                    ? getComputedStyle(document.body).backgroundColor
+                    : ALIVE_COLOR;
+
+                    ctx.fillRect(
+                        col * (CELL_SIZE + 1) + 1,
+                        row * (CELL_SIZE + 1) + 1,
+                        CELL_SIZE,
+                        CELL_SIZE
+                    );
+                }
+            }
+
+            ctx.stroke();
+        };
+
+        const updateDisplay = () => {
+            if (!emu.get_draw_flag()){
+                return;
+            }
+            drawDisplay();
+        }
+
+        const loadRom = () => {
+            emu.load_rom();
+        }
+
+        const frameLoop = (timestamp) => {
+            for(let i =0;i<10;i++){
+                emu.tick();
+            }
+            updateDisplay();
+            emu.tick_timers(); // 60 Hz
+            requestAnimationFrame(frameLoop);
+        };
+        loadRom();
+        updateDisplay();
+        requestAnimationFrame(frameLoop);
+    }
+
+    run();
+</script>
