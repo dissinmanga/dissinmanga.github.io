@@ -7,10 +7,12 @@ summary: " "
 ---
 {{< invaders >}}
 
-space invaders：Q左移，W射擊，E右移。  
-merlin：QWAS對應到四個區塊。  
-tetris：Q轉，W左移，E右移，A下移。  
-dinorun：W跳。
+|                |                |
+| -------------- | -------------- |
+| space invaders | Q左移，W射擊，E右移    |
+| merlin         | QWAS對應到四個區塊    |
+| tetris         | Q轉，W左移，E右移，A下移 |
+| dinorun        | W跳             |
 
 ◆
 
