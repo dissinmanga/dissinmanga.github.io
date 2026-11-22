@@ -11,7 +11,7 @@
         const canvas = document.getElementById("chip-8-canvas");
         const ctx = canvas.getContext('2d');
         const containerWidth = canvas.parentElement.clientWidth;
-        const CELL_SIZE = Math.floor(containerWidth / width);
+        const CELL_SIZE = Math.floor((containerWidth-1) / width)-1;
         const ALIVE_COLOR = "#A3E635";
 
         canvas.height = (CELL_SIZE + 1) * height + 1;

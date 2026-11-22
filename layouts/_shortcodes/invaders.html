@@ -1,6 +1,6 @@
 <canvas id="chip-8-canvas"></canvas>
 <p></p>
-<select id="chip-8-dropdown">
+ROM: <select id="chip-8-dropdown">
   {{- range .Page.Resources.Match "rom/*" -}}
     <option value="{{ .RelPermalink }}">{{ path.Base .Name }}</option>
   {{- end -}}
@@ -17,7 +17,7 @@
         const canvas = document.getElementById("chip-8-canvas");
         const ctx = canvas.getContext('2d');
         const containerWidth = canvas.parentElement.clientWidth;
-        const CELL_SIZE = Math.floor(containerWidth / width);
+        const CELL_SIZE = Math.floor((containerWidth-1) / width)-1;
         const ALIVE_COLOR = "#A3E635";
         const KEY_MAP = {
             'Digit1': 0x1, 'Digit2': 0x2, 'Digit3': 0x3, 'Digit4': 0xC,
