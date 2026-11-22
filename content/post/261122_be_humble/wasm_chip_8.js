@@ -57,8 +57,13 @@ export class Emu {
     key_up(idx) {
         wasm.emu_key_up(this.__wbg_ptr, idx);
     }
-    load_rom() {
-        wasm.emu_load_rom(this.__wbg_ptr);
+    /**
+     * @param {Uint8Array | number[]} rom
+     */
+    load_rom(rom) {
+        const ptr0 = passArray8ToWasm0(rom, wasm.__wbindgen_malloc);
+        const len0 = WASM_VECTOR_LEN;
+        wasm.emu_load_rom(this.__wbg_ptr, ptr0, len0);
     }
     /**
      * @returns {Emu}
@@ -155,6 +160,13 @@ function getUint8ArrayMemory0() {
         cachedUint8ArrayMemory0 = new Uint8Array(wasm.memory.buffer);
     }
     return cachedUint8ArrayMemory0;
+}
+
+function passArray8ToWasm0(arg, malloc) {
+    const ptr = malloc(arg.length * 1, 1) >>> 0;
+    getUint8ArrayMemory0().set(arg, ptr / 1);
+    WASM_VECTOR_LEN = arg.length;
+    return ptr;
 }
 
 function passStringToWasm0(arg, malloc, realloc) {

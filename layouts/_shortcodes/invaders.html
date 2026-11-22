@@ -1,6 +1,12 @@
 <canvas id="chip-8-canvas"></canvas>
+<p></p>
+<select id="chip-8-dropdown">
+  {{- range .Page.Resources.Match "rom/*" -}}
+    <option value="{{ .RelPermalink }}">{{ path.Base .Name }}</option>
+  {{- end -}}
+</select>
 <script type="module">
-    import init, { Emu } from '/invaders/wasm_chip_8.js';
+    import init, { Emu } from './wasm_chip_8.js';
 
     async function run() {
         const wasm = await init();
@@ -33,6 +39,10 @@
             if (e.code in KEY_MAP) {
                 emu.key_up(KEY_MAP[e.code]);
             }
+        });
+
+        document.getElementById("chip-8-dropdown").addEventListener('change', (e) => {
+            fetchRom(e.target.value);
         });
 
         const getIndex = (row, column) => {
@@ -72,8 +82,10 @@
             drawDisplay();
         }
 
-        const loadRom = () => {
-            emu.load_rom();
+        const fetchRom = async (v) => {
+            await fetch(v)
+                .then(r=> r.arrayBuffer())
+                .then(r=> emu.load_rom(new Uint8Array(r)));
         }
 
         const frameLoop = (timestamp) => {
@@ -84,7 +96,7 @@
             emu.tick_timers(); // 60 Hz
             requestAnimationFrame(frameLoop);
         };
-        loadRom();
+        fetchRom(document.getElementById('chip-8-dropdown').value);
         updateDisplay();
         requestAnimationFrame(frameLoop);
     }
