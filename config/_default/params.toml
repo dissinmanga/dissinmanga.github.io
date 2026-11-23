@@ -1,5 +1,5 @@
 colorScheme = "avocado"
-enableSearch = true
+enableSearch = false
 mainSections = ["post"]
 dateFormat = "2006-01-02"
 

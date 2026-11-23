@@ -2,7 +2,7 @@
 date: 2026-11-21T12:20:49+08:00
 draft: false
 title: 把無聊變有趣
-description: " "
+description: 至少在這裡，就親手走過一次吧，往後是沒有這種奢侈的空間的。
 summary: " "
 ---
 以前看植木的法則時，就很喜歡裡面的能力設計。
