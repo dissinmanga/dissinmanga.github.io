@@ -1,0 +1,3 @@
+{{ with .Params.repoLink }}
+  {{ partial "github-ribbon.html" (dict "repoLink" . "pos" "head") }}
+{{ end }}

@@ -1,0 +1,6 @@
+{{ if eq .pos "head" }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+{{ else if eq .pos "footer" }}
+    <a class="github-fork-ribbon fixed" href="{{ .repoLink }}" data-ribbon="Check it on GitHub" title="Fork me on GitHub"  target="_blank" rel="noopener noreferrer">Fork me on GitHub</a>
+    <style>.github-fork-ribbon.fixed { z-index: 10; } .github-fork-ribbon.fixed:before { background-color: #8250DF; }</style>
+{{ end }}

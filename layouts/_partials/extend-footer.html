@@ -3,3 +3,7 @@
 {{ if .IsHome -}}
     {{ partial "random_fortune.html" . }}
 {{- end }}
+
+{{ with .Params.repoLink }}
+  {{ partial "github-ribbon.html" (dict "repoLink" . "pos" "footer") }}
+{{ end }}
