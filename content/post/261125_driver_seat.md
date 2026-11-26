@@ -2,7 +2,7 @@
 date: 2026-11-25T13:31:48+08:00
 draft: false
 title: 駕駛座
-description: " "
+description: 如果哪天發現那些曾經有人活動的地方突然安靜下來時，我會有點不習慣的。
 summary: " "
 ---
 我又開始抖腳。
