@@ -1,12 +1,10 @@
-{{ $relatedList := index site.Data.related_post .File.Path }}
+{{ $relatedList := index hugo.Data.related_post .File.Path }}
 <!-- {{ if site.Params.showRelatedPosts }} -->
   <!-- {{ $related := .Site.RegularPages.Related . | first 3 }} -->
   {{ with $relatedList }}
     <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
     <section class="mt-10 pt-6 border-neutral-200 dark:border-neutral-700">
-      <h2 class="text-xl font-bold mb-4 text-neutral-800 dark:text-neutral">
-        相關文章
-      </h2>
+      <h2 class="mt-8 text-2xl font-extrabold">相關文章</h2>
       <div class="space-y-4">
         {{ range . }}
           {{ partial "article-link.html" (site.GetPage .file) }}

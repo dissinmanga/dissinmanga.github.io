@@ -387,8 +387,8 @@
       "score": 0.7687
     },
     {
-      "file": "post/261113_catch_up.md",
-      "score": 0.7601
+      "file": "post/261128_impatient.md",
+      "score": 0.7609
     }
   ],
   "post/261111_everything_is_an_object.md": [
@@ -415,8 +415,8 @@
       "score": 0.8496
     },
     {
-      "file": "post/261029_smart_pointer.md",
-      "score": 0.8348
+      "file": "post/261128_impatient.md",
+      "score": 0.8472
     }
   ],
   "post/261024_iterator.md": [
@@ -425,12 +425,12 @@
       "score": 0.8337
     },
     {
-      "file": "post/261011_balance.md",
-      "score": 0.8008
+      "file": "post/261128_impatient.md",
+      "score": 0.8109
     },
     {
-      "file": "post/261007_leave_me_alone.md",
-      "score": 0.7986
+      "file": "post/261011_balance.md",
+      "score": 0.8008
     }
   ],
   "post/260908_horizon.md": [
@@ -1005,6 +1005,20 @@
     {
       "file": "post/260921_is_it_worth_having_a_mobile_toilet.md",
       "score": 0.8443
+    }
+  ],
+  "post/261128_impatient.md": [
+    {
+      "file": "post/261105_is_it_worth_it.md",
+      "score": 0.8472
+    },
+    {
+      "file": "post/261021_been_on_it.md",
+      "score": 0.8416
+    },
+    {
+      "file": "post/261011_untitled_pt_4.md",
+      "score": 0.8392
     }
   ],
   "post/260924_god_know_i_luv.md": [
